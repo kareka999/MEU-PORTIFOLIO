@@ -1,45 +1,45 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Playfair Display", serif;
 
 }
 
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 
 .caixa-principal{
-    height: 100vh;
-    width: 100%;
-    background-image: url(./assets/img-programacao-python.webp) ;
-    background-repeat: no-repeat;
-    background-color: #191919;
-    background-position: right 60px bottom 20px;
-    background-size:35%;
-    
-    
+   height: 100vh;
+   width: 100%;
+   background-image: url(./assets/img-programacao-python.webp) ;
+   background-repeat: no-repeat;
+   background-color: #191919;
+   background-position: right 60px bottom 20px;
+   background-size:35%;
+   
+   
 }
 
 nav{
-   
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 25px;
+  
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 25px;
 }
 
 .portifolio{
-    color: white;
-    font-size: 36px;
+   color: white;
+   font-size: 36px;
 }
 
 .portifolio span{
-    color: #f9004d;
+   color: #f9004d;
 }
 
 li{
@@ -53,202 +53,355 @@ cursor: pointer;
 }
 
 li a{
-    color: white;
+   color: white;
 }
 
 
 
 li a:hover{
-    color: #f9004d;
-    transition: 0.5s;
+   color: #f9004d;
+   transition: 0.5s;
 
 }
 
 li a:active{
-    color: #f9004d; /* Cor rosa quando o item é clicado */
+   color: #f9004d; /* Cor rosa quando o item é clicado */
 }
-    
+   
 
 
 .meu-nome{
-    position: absolute;
-    top: 50%;
-    left: 10%;
+   position: absolute;
+   top: 50%;
+   left: 10%;
 }
 
 h1{
-    color: white;
-    font-size: 70px;
-    margin-left: -34px;
+   color: white;
+   font-size: 70px;
+   margin-left: -34px;
 }
 
 h1 span{
-    color:#f9004d ;
+   color:#f9004d ;
 }
 
 .meu-nome h3 {
-    color: white;
-    font-size: 30px;
-    margin-left: -28px;
+   color: white;
+   font-size: 30px;
+   margin-left: -28px;
 }
 
 .sobre-min{
-    display: flex;
-    align-items: center;
-    padding: 45px 8%;
-    background: url(./assets/repeated-square-dark.webp);
-    
-    }
-
-    .minha-foto{
-        margin-right: 29px;
-        height: 266px;
-        border-radius: 50%;
-        border: 7px solid #f9004d
-    }
-
-    .sobre-min h4{
-        color: white;
-        font-size: 75px;
-        margin-top: 20px;
-    }
-
-    .sobre-min p{
-        color:#e2b9c6; 
-        font-size: 30px;
-        margin-top: 20px;
-    }
-        
-
-     .button-contato{
-        margin-top: 48px;
-        border-radius: 26px;
-        border: none;
-        font-size: 17px;
-         width: 150px;
-        height: 46px;
-        background: #f9004d;
-        color: white;
-        padding-bottom: 4px;
-     }
-
-    .button-contato:hover{
-         background-color: black;
-         border: 3px solid  #f9004d;
-         transition: 0.5s;
-         cursor: pointer;
-     }
-
-     .projetos{
-        background-color: #191919;
-        padding-top: 50px;
-        padding-bottom:100px ;
-      
-     }
-
-     .projetos h2{
-        color: white;
-        font-size: 75px;
-        text-align: center;
-     }
-
-     .card{
-      background: url(./assets/repeated-square-dark.webp);
-        height: 365px;
-        width:335px ;
-        border-radius: 20px;
-        padding: 20px 35px;
-        text-align: center;
-
-     }
-
-     .card img{
-        height: 100px;
-     }
-
-     .card h5{
-        color: white;
-        font-size: 24px;
-     }
-
-     .card p{
-        color: #e2b9c6;
-        margin-top: 13px;
-        margin-bottom: 40px;
-     }
-
-     .card a{
-        background-color: #f9004d;
-        color: white;
-        padding: 7px 41px;
-        border-radius: 25px;
-        cursor: pointer;
-        transition: 0.5s;
-        text-decoration: none;
-     }
-
-     .card a:hover{
-        background-color: transparent;
-        border: 5px solid #f9004d;
-     }
-
-     .card-projetos{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-      gap: 40px; /* Espaçamento entre os itens */
-      justify-content: center;
-      padding: 50px; /* Adiciona espaço ao redor */
-     }
-     footer{
-      background: url(./assets/repeated-square-dark.webp);
-        padding-top: 100px;
-        padding-bottom: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-
-
-     }
-
-     footer h5{
-        color: white;
-        font-size: 30px;
-     }
+   display: flex;
+   align-items: center;
+   padding: 45px 8%;
+   background: url(./assets/repeated-square-dark.webp);
    
-     footer p{
-        color: white;
-        font-size: 18px;
-        margin-bottom: 30px;
-        margin-top: 14px;
-     }
-     .social{
-        display: flex;
-        gap: 20px;
+   }
 
-     }
+   .minha-foto{
+       margin-right: 29px;
+       height: 266px;
+       border-radius: 50%;
+       border: 7px solid #f9004d
+   }
 
-     .social img{
-        height:40px ;
-        border-radius: 50%;
-        
-     }
+   .sobre-min h4{
+       color: white;
+       font-size: 75px;
+       margin-top: 20px;
+   }
 
-     .social a{
-        background-color: #f9004d;
-        border-radius: 40%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 50px;
-        cursor: pointer;
-     }
-     .social a:hover{
-        transform: scale(1.3);
+   .sobre-min p{
+       color:#e2b9c6; 
+       font-size: 30px;
+       margin-top: 20px;
+   }
+       
+
+    .button-contato{
+       margin-top: 48px;
+       border-radius: 26px;
+       border: none;
+       font-size: 17px;
+        width: 150px;
+       height: 46px;
+       background: #f9004d;
+       color: white;
+       padding-bottom: 4px;
+    }
+
+   .button-contato:hover{
+        background-color: black;
+        border: 3px solid  #f9004d;
         transition: 0.5s;
-     }
+        cursor: pointer;
+    }
+
+    .projetos{
+       background-color: #191919;
+       padding-top: 50px;
+       padding-bottom:100px ;
+     
+    }
+
+    .projetos h2{
+       color: white;
+       font-size: 75px;
+       text-align: center;
+    }
+
+    .card{
+     background: url(./assets/repeated-square-dark.webp);
+       height: 365px;
+       width:335px ;
+       border-radius: 20px;
+       padding: 20px 35px;
+       text-align: center;
+
+    }
+
+    .card img{
+       height: 100px;
+    }
+
+    .card h5{
+       color: white;
+       font-size: 24px;
+    }
+
+    .card p{
+       color: #e2b9c6;
+       margin-top: 13px;
+       margin-bottom: 40px;
+    }
+
+    .card a{
+       background-color: #f9004d;
+       color: white;
+       padding: 7px 41px;
+       border-radius: 25px;
+       cursor: pointer;
+       transition: 0.5s;
+       text-decoration: none;
+    }
+
+    .card a:hover{
+       background-color: transparent;
+       border: 5px solid #f9004d;
+    }
+
+    .card-projetos{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+     gap: 40px; /* Espaçamento entre os itens */
+     justify-content: center;
+     padding: 50px; /* Adiciona espaço ao redor */
+    }
+    footer{
+     background: url(./assets/repeated-square-dark.webp);
+       padding-top: 100px;
+       padding-bottom: 120px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
        
 
+
+    }
+
+    footer h5{
+       color: white;
+       font-size: 30px;
+    }
+  
+    footer p{
+       color: white;
+       font-size: 18px;
+       margin-bottom: 30px;
+       margin-top: 14px;
+    }
+    .social{
+       display: flex;
+       gap: 20px;
+
+    }
+
+    .social img{
+       height:40px ;
+       border-radius: 50%;
        
+    }
+
+    .social a{
+       background-color: #f9004d;
+       border-radius: 40%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 50px;
+       width: 50px;
+       cursor: pointer;
+    }
+    .social a:hover{
+       transform: scale(1.3);
+       transition: 0.5s;
+    }
+
+    /* Media Queries */
+@media (max-width: 1024px) {
+   .meu-nome h1 {
+       font-size: 50px;
+       margin-left: 53px;
+   }
+
+   nav ul {
+      display: none;
+  }
+
+   .meu-nome h3 {
+       font-size: 24px;
+       margin-left: 74px;
+   }
+
+   .portifolio {
+       font-size: 28px;
+   }
+
+   .caixa-principal {
+       background-size: 45%;
+   }
+
+   .button-contato {
+       width: 130px;
+       height: 42px;
+   }
+
+   .projetos h2 {
+       font-size: 60px;
+   }
+
+   .card-projetos {
+       grid-template-columns: repeat(2, 1fr);
+   }
+
+   .card {
+       width: 100%;
+       height: auto;
+       padding: 20px;
+   }
+}
+
+@media (max-width: 768px) {
+   .meu-nome {
+       left: 5%;
+   }
+
+   .caixa-principal {
+       background-size: 55%;
+   }
+
+   h1 {
+       font-size: 40px;
+   }
+
+   h3 {
+       font-size: 20px;
+   }
+
+   .portifolio {
+       font-size: 24px;
+   }
+
+   .sobre-min {
+       flex-direction: column;
+       align-items: center;
+       padding: 30px;
+   }
+
+   .minha-foto {
+       margin-bottom: 20px;
+       height: 200px;
+   }
+
+   .sobre-min h4 {
+       font-size: 50px;
+   }
+
+   .sobre-min p {
+       font-size: 22px;
+   }
+
+   .button-contato {
+       width: 120px;
+       height: 40px;
+   }
+
+   .card-projetos {
+       grid-template-columns: 1fr;
+       padding: 20px;
+   }
+
+   .card {
+       width: 100%;
+       height: auto;
+   }
+
+   footer h5 {
+       font-size: 25px;
+   }
+
+   footer p {
+       font-size: 16px;
+   }
+}
+
+@media (max-width: 480px) {
+   .meu-nome h1 {
+       font-size: 35px;
+   }
+
+   .meu-nome h3 {
+       font-size: 18px;
+   }
+
+   .portifolio {
+       font-size: 20px;
+   }
+
+   .caixa-principal {
+       background-size: 65%;
+   }
+
+   .sobre-min h4 {
+       font-size: 40px;
+   }
+
+   .sobre-min p {
+       font-size: 18px;
+   }
+
+   .button-contato {
+       width: 110px;
+       height: 38px;
+   }
+
+   footer h5 {
+       font-size: 20px;
+   }
+
+   footer p {
+       font-size: 14px;
+   }
+
+   .social img {
+       height: 35px;
+   }
+
+   .social a {
+       height: 45px;
+       width: 45px;
+   }
+}
