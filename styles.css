@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/img-programacao-python.webp) ;
+    background-repeat: no-repeat;
+    background-color: #191919;
+    background-position: right 60px bottom 20px;
+    background-size:35%;
+    
+    
+}
+
+nav{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portifolio{
+    color: white;
+    font-size: 36px;
+}
+
+.portifolio span{
+    color: #f9004d;
+}
+
+li{
+
+color: white ;
+list-style: none;
+display: inline-block;
+font-size: 25px;
+margin-right: 50px;
+cursor: pointer;
+}
+
+li a{
+    color: white;
+}
+
+
+
+li a:hover{
+    color: #f9004d;
+    transition: 0.5s;
+
+}
+
+li a:active{
+    color: #f9004d; /* Cor rosa quando o item é clicado */
+}
+    
+
+
+.meu-nome{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    margin-left: -34px;
+}
+
+h1 span{
+    color:#f9004d ;
+}
+
+.meu-nome h3 {
+    color: white;
+    font-size: 30px;
+    margin-left: -28px;
+}
+
+.sobre-min{
+    display: flex;
+    align-items: center;
+    padding: 45px 8%;
+    background: url(./assets/repeated-square-dark.webp);
+    
+    }
+
+    .minha-foto{
+        margin-right: 29px;
+        height: 266px;
+        border-radius: 50%;
+        border: 7px solid #f9004d
+    }
+
+    .sobre-min h4{
+        color: white;
+        font-size: 75px;
+        margin-top: 20px;
+    }
+
+    .sobre-min p{
+        color:#e2b9c6; 
+        font-size: 30px;
+        margin-top: 20px;
+    }
+        
+
+     .button-contato{
+        margin-top: 48px;
+        border-radius: 26px;
+        border: none;
+        font-size: 17px;
+         width: 150px;
+        height: 46px;
+        background: #f9004d;
+        color: white;
+        padding-bottom: 4px;
+     }
+
+    .button-contato:hover{
+         background-color: black;
+         border: 3px solid  #f9004d;
+         transition: 0.5s;
+         cursor: pointer;
+     }
+
+     .projetos{
+        background-color: #191919;
+        padding-top: 50px;
+        padding-bottom:100px ;
+      
+     }
+
+     .projetos h2{
+        color: white;
+        font-size: 75px;
+        text-align: center;
+     }
+
+     .card{
+      background: url(./assets/repeated-square-dark.webp);
+        height: 365px;
+        width:335px ;
+        border-radius: 20px;
+        padding: 20px 35px;
+        text-align: center;
+
+     }
+
+     .card img{
+        height: 100px;
+     }
+
+     .card h5{
+        color: white;
+        font-size: 24px;
+     }
+
+     .card p{
+        color: #e2b9c6;
+        margin-top: 13px;
+        margin-bottom: 40px;
+     }
+
+     .card a{
+        background-color: #f9004d;
+        color: white;
+        padding: 7px 41px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.5s;
+        text-decoration: none;
+     }
+
+     .card a:hover{
+        background-color: transparent;
+        border: 5px solid #f9004d;
+     }
+
+     .card-projetos{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+      gap: 40px; /* Espaçamento entre os itens */
+      justify-content: center;
+      padding: 50px; /* Adiciona espaço ao redor */
+     }
+     footer{
+      background: url(./assets/repeated-square-dark.webp);
+        padding-top: 100px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+
+     }
+
+     footer h5{
+        color: white;
+        font-size: 30px;
+     }
+   
+     footer p{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 30px;
+        margin-top: 14px;
+     }
+     .social{
+        display: flex;
+        gap: 20px;
+
+     }
+
+     .social img{
+        height:40px ;
+        border-radius: 50%;
+        
+     }
+
+     .social a{
+        background-color: #f9004d;
+        border-radius: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+     }
+     .social a:hover{
+        transform: scale(1.3);
+        transition: 0.5s;
+     }
+       
+
+       
